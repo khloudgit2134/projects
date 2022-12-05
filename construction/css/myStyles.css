@@ -1,0 +1,344 @@
+:root{
+    color: #ffcb0f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Hind Madurai', sans-serif;;
+}
+#sec1{
+    background-color: #ffcb0f;
+}
+.nav-link:hover{
+background-color: #ffcb0f;
+    font-weight: bold;
+
+}
+#sec2{
+    background-color: #222533;
+}
+.mynavbtn{
+    background-color: #ffe30f;
+    
+}
+ body>nav{
+    background-color: #222533;
+ }
+ .myp{
+    font-size: 0.8rem;
+    color: #a7a7a8;
+ }
+ #sec2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.577)),url("../Images/banner.jpg");
+    
+    
+    background-position: center;
+ }
+
+  #sec2 p:first-child{
+    font-size:35px ;
+   
+ } 
+.mybtn{
+    background-color: #000;
+    color: #ffcb0fce;
+    padding: 10px 15px;
+    border: 1px solid #ffcb0f;
+    font-weight: bold;
+}
+
+
+
+#sec3 h2{
+    font-size: 45px;
+    
+    
+}
+#sec3 h4 {
+    font-size: 40px;
+
+
+}
+#sec4 h2{
+    font-size: 30px;
+    color: #ffcb0f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#sec4 h4{
+    color: #ffcb0f;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+#sec4{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.245)),url("../Images/bg4.jpg");
+    background-position: center;
+   padding-bottom: 50px;
+    background-size: cover;
+    color: #fff;
+
+}
+#sec4 .myimg{
+    background-color: #ffcb0f;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+ 
+    position: relative;
+   bottom: 0px;
+
+}
+
+
+
+#sec4 .mydiv{
+    background-color: rgba(0, 0, 0, 0.59);
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+   
+}
+
+
+#sec5{
+    padding-bottom: 60px;
+}
+
+
+#sec6{
+    background: linear-gradient(rgba(93, 95, 91, 0.899), rgba(93, 95, 91, 0.904)), url("../Images/bg2.jpg");
+        background-position: center;
+        padding-bottom: 50px;
+        background-size: cover;
+        color: #fff;
+        min-height: 100vh;
+}
+#sec6 h2{
+    padding-top: 60px;
+}
+#sec6 p{
+    text-align: center;
+    width: 800px;
+    justify-content: center;
+}
+
+
+#sec6 .btn{
+    background-color: rgba(0, 0, 0, 0.499);
+    color: #fff;
+    border-radius:25px ;
+    -webkit-border-radius:25px ;
+    -moz-border-radius:25px ;
+    -ms-border-radius:25px ;
+    -o-border-radius:25px ;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#sec6 .btn:hover{
+    background-color: rgb(0, 0, 0);
+        color: #fff;
+        font-weight: bold;
+}
+
+#sec6 img{
+    width: 100%;
+    
+    
+}
+
+#sec7 .first{
+    background-color:#e5e5e5;
+    color: #656565;
+    
+}
+.first {
+background-color: #e5e5e5;
+color: #656565;
+
+
+}
+.second{
+    background-color: #ffcb0f;
+    color: #fff;
+ 
+    
+}
+#sec7 .pimg{
+    position: absolute;
+    bottom: 60PX;
+    
+    
+   
+}
+#sec7{
+    background-image: url("../Images/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+#sec8{
+    background-color: #ffdc5e;
+    color: #73757e;
+    border-bottom: #686b72 50px solid;
+}
+
+
+#sec9{
+background: linear-gradient(rgba(0, 0, 0, 0.799), rgba(0, 0, 0, 0.704)), url("../Images/WhatsApp\ Image\ 2022-11-26\ at\ 19.16.24.jpg");
+    background-position: center;
+    padding-bottom: 50px;
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+}
+#sec9 p{
+    font-size: 0.9rem;
+    color: #f9f9f9;
+}
+#sec9 .parent{
+    display: flex;
+    justify-content: space-between;
+
+}
+#sec9 .icon{
+    width: 50px;
+    height: 50px;
+    background-color: #ffcb0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#sec9 .icon i{
+    font-size: 25px;
+    color: #000;
+
+}
+#sec9 .c i{
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+    #sec2{
+        padding-top: 80px;
+    }
+#sec2 h1{
+    font-size: 40px;
+    
+}
+#sec5 h4{
+      background-color: rgba(0, 0, 0, 0.634);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: #fff;
+      transform: translatey(-49px);
+      -webkit-transform: translatey(-49px);
+      -moz-transform: translatey(-49px);
+      -ms-transform: translatey(-49px);
+      -o-transform: translatey(-49px);
+}
+#sec5 p{
+    margin-top: -30px;
+}
+#sec8 input{
+    margin-left: 0;
+    margin-right: 0;
+}
+.myfooter{
+    background-color: #222533;
+    color: #fff;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #sec2 {
+            padding-top: 60px;
+        }
+    
+        #sec2 h1 {
+            font-size: 60px;
+    
+        }
+              
+              
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #sec2 {
+           padding-top: 20px;
+        }
+    
+        #sec2 h1 {
+            font-size: 60px;
+    
+        }
+               
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #sec2 {
+           padding-top: 0px;
+        }
+    
+        #sec2 h1 {
+            font-size: 70px;
+    
+        }
+               
+                               
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1340px;
+    }
+          #sec2 {
+              padding-top: 0px;
+          }
+    
+          #sec2 h1 {
+              font-size: 80px;
+    
+          }
+                
+                                 
+}
