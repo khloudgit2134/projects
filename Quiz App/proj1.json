@@ -1,0 +1,80 @@
+[
+    {
+        "Title":"Why We Use <br> Element?",
+        "Answer_1":"To Make Text Blod",
+        "Answer_2":"To Make Break Line",
+        "Answer_3":"To Make Text italic",
+        "Answer_4":"To Make Horiazontal line ",
+        "Right_Answer":"To Make Break Line"
+    },
+     {
+        "Title":"Why We Use <img> Element?",
+        "Answer_1":"To Make Text Blod",
+        "Answer_2":"To Make Break Line",
+        "Answer_3":"To Make Text italic",
+        "Answer_4":"To Add Image ",
+        "Right_Answer":"To Add Image "
+    },
+    {
+        "Title":"How to Make Text Bold ?",
+        "Answer_1":"<b> ",
+        "Answer_2":"<hr/>",
+        "Answer_3":"<i>",
+        "Answer_4":"<small> ",
+        "Right_Answer":"<b>"
+    },
+      {
+        "Title":"<img> Has href Attribute ?",
+        "Answer_1":"Yes",
+        "Answer_2":"No its for Tag Anchor",
+        "Answer_3":"All Elements Has This Attribute",
+        "Answer_4":"1&3 Is right ",
+        "Right_Answer": "No its for Tag Anchor"
+    },
+     {
+        "Title":"<img> Has href Attribute ?",
+        "Answer_1":"Yes",
+        "Answer_2":"No its for Tag Anchor",
+        "Answer_3":"All Elements Has This Attribute",
+        "Answer_4":"1&3 Is right ",
+        "Right_Answer": "No its for Tag Anchor"
+    },
+     {
+        "Title":"How To Make Page Html5?",
+        "Answer_1":"<!DOCTYPE html>",
+        "Answer_2":"<body>",
+        "Answer_3":"!<!DOCTYPE html>",
+        "Answer_4":"<DOCTYPE html> ",
+        "Right_Answer": "<!DOCTYPE html>"
+    },
+ {
+        "Title":"what is the element not exists Html5?",
+        "Answer_1":"<article>",
+        "Answer_2":"<blockqoute>",
+        "Answer_3":"<section>",
+        "Answer_4":"<aside> ",
+        "Right_Answer": "<blockqoute>"
+    },
+
+    {
+        "Title":"to make style of css in html page?",
+        "Answer_1":" <link rel='stylesheet' href=''>",
+        "Answer_2":"<link rel='stylesheet'>",
+        "Answer_3":" <link  href=''>",
+        "Answer_4":" <link>",
+        "Right_Answer": " <link rel='stylesheet' href=''>"
+    },
+     {
+        "Title":"which of the following is block element?",
+        "Answer_1":"span",
+        "Answer_2":"ul li",
+        "Answer_3":" div",
+        "Answer_4":" class",
+        "Right_Answer": " div"
+    }
+
+
+    
+    
+
+]
