@@ -1,0 +1,1119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+    font-family: 
+    Segoe,
+       
+        "Trebuchet MS",
+        Verdana,
+        "sans-serif";
+}
+.container{
+margin-left: 15px;
+margin-right: 15px;
+}
+#mainMenu img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.logo {
+    font-size: 14px;
+    color: #ffd01d;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+
+}
+#mainMenu {
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#mainMenu label {
+    border: thin solid #ffd01d;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0 3px;
+
+}
+
+#mainMenu .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label i{
+    color: #ffd01d;
+}
+#mainMenu a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.6s ease;
+
+}
+
+#mainMenu div>a {
+    display: block;
+    text-align: left;
+    padding: 15px 20px;
+    border-bottom: thin solid #fac01f72;
+    color: #fff;
+    
+
+}
+
+#mainMenu div a:hover {
+    background-color: #FABF1F;
+
+}
+
+#mainMenu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+
+}
+
+#mainMenu ul a {
+    border-radius: 50%;
+    border: thin solid #ffd01d;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#mainMenu ul li:nth-of-type(2) {
+    padding: 0 10px;
+}
+
+#MenuControl {
+    display: none;
+}
+
+#MenuControl+div {
+    display: block;
+    width: 100%;
+}
+
+#MenuControl:checked+div {
+    display: none;
+}
+.big-letter{
+    font-size: 20px;
+    font-weight: bold;
+}
+.header {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    padding-top:10px;
+    padding-bottom: 10px;   
+}
+ #my-nav a{
+    text-decoration: none;
+    color:#fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+#my-nav a:hover{
+color: #ffd01d;
+
+}
+#my-nav .last{
+    margin-right: 20px;
+}
+#my-nav i{
+        color: #fff;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 2px solid #fff;
+        font-size: 16px;
+        padding: 5px;
+        border-radius:30px ;
+        -webkit-border-radius:30px ;
+        -moz-border-radius:30px ;
+        -ms-border-radius:30px ;
+        -o-border-radius:30px ;
+}
+.Content{
+    background-image: url("../images/banner.jpg");
+    padding-top: 20px;
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: center;
+    /* height: 100vh; */
+   
+   
+}
+
+.header .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+.Content .parnet {
+
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 130px;
+
+
+
+}
+
+.parnet .container p {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.parnet .container h2{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
+.parnet .container .txt2{
+    color: #d18a7f;
+}
+
+.parnet .btn{
+    background-color: #fff;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: 2px #fff solid;
+    border-radius: 20px;
+    -webkit-border-radius:20px;
+ 
+}
+
+#quality{
+background-color: #000000;
+padding-top: 50px;
+padding-bottom: 50px;
+
+
+}
+#quality h2{
+    color: #ffd01d;
+    margin-bottom: 20px;
+}
+#quality p{
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+#visit{
+    background-color: #ffd01d;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+ 
+}
+#deals{
+    background-color: #fff;
+   
+}
+#deals .container h3{
+    color:#ffd01d ;
+    padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    
+}
+#deals .container p{
+    color: #fff;
+    margin-bottom: 20px;
+    flex-basis: 95%;
+    padding: 10px 10px;
+  
+   
+   
+}
+#deals .container{
+    display: flex;
+    justify-content: center;
+
+   
+
+}
+#deals .container img{
+   width: 300px;
+   height: 200px;
+  max-width: 100%;
+}
+#deals .sony{
+    background-color: #000000;
+    margin-bottom: 20px;
+
+
+}
+#deals .hawi{
+background-color: #000000;
+    margin-bottom: 20px;
+      
+}
+#deals .len {
+background-color: #000000;
+margin-bottom: 20px;
+}
+
+#deals .off {
+    width: 80px;
+    height: 35px;
+    background-color: #0000009c;
+    z-index: 2;
+    position: absolute;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 10px;
+
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#arr img{
+   
+max-width: 100%;
+   
+margin-bottom: 15px;
+   
+
+}
+#arr h2{
+    color: #ffd01d;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+#arr {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  padding-bottom: 30px;
+
+}
+
+.order{
+    width: 100%;
+    background-color: #ffd01d;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+  
+}
+.order p{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.order .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.btn3{
+    background-color: #fff;
+        padding: 10px 30px;
+        margin-top: 10px;
+        border: 2px #fff solid;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+}
+.ach{
+    background-color: #000000;
+    padding-top: 50px;
+    
+
+}
+.ach p{
+    color: #fff;
+    font-size: 15px;
+    margin: 10px;
+
+}
+.ach .first p{
+    margin-bottom: 20px;
+}
+.ach .f{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.ach img{
+  max-width: 600px;
+    
+}
+.ach h2{
+    color: #fff;
+}
+.ach .container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+
+}
+  .urtxt {
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 30px;
+
+ }
+ .urtxt p{
+    font-size: 0.8rem;
+ }
+ .urtxt h3{
+    margin-bottom: 10px;
+ }
+
+
+
+.Nums{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Nums .one{
+    flex-basis: 49%;
+    margin-bottom: 30px;
+}
+.Nums .two {
+    flex-basis: 49%;
+    margin-bottom: 30px;
+}
+.Nums .three {
+    flex-basis: 49%;
+    margin-bottom: 30px;
+}
+.Nums .four {
+    flex-basis: 49%;
+    margin-bottom: 30px;
+}
+
+.Nums p{
+    font-size: .8rem;
+}
+.Nums #b{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact{
+background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/contactus.jpg");
+   background-size: cover;
+   background-position: center;
+   padding-top: 80px;
+}
+.contact p{
+    font-size: 0.8rem;
+}
+.contact .container{
+    display: flex;
+    
+    
+
+}
+.contact .part1{
+   flex-basis: 60%;
+}
+.contact h2{
+    color: #ffd01d;
+    font-size: 30px;
+}
+.my-form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    row-gap: 15px;
+    border: 2px #ffd01d solid;
+    box-shadow: 0 0 3px 3px #ffd01d;
+    padding: 20px 20px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+ .my-form * {
+    flex-basis: 100%;
+    padding: 12px 10px;
+    border-radius: 3px;
+    border-style: none;
+
+}
+.mybtnn{
+    background-color: #ffd01d;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.myimg{
+    width: 100%;
+}
+.contact{
+    border-bottom: 20px solid #ffd01d;
+}
+footer .container{
+    display: flex;
+    
+
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+ 
+}
+footer .fotr3 img{
+    width: 30px;
+    height: 30px;
+}
+footer .fotr1 p a{
+    text-decoration: none;
+    color: #acacac;
+}
+
+.fotr1{
+    flex-basis: 30%;
+    color: #777;
+}
+.fotr2 {
+    flex-basis: 30%;
+    color: #777;
+}
+.fotr2 p{
+    color: #acacac;
+}
+.fotr3{
+    flex-basis: 30%;
+    color: #777;
+}
+.fotr3{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fotr3 div{
+    flex-basis:30%
+}
+.fotr3 input{
+    margin-top: 5px;
+    width: 180px;
+    padding: 5px 10px;
+    background-color: #000000;
+    border: none;
+    border-bottom: #777 2px solid;
+    
+}
+
+
+
+/* Media Quieres */
+@media (min-width: 320px) {
+   
+    .header .logo{
+        flex-basis: 50%;
+
+    }
+     #my-nav {
+            display: none;
+        }
+  #menu-bar {
+       flex-basis: 10%;
+   }
+   .Content .parnet{
+    padding-left: 30px;
+
+   }
+
+#quality p {
+  font-size: 0.8rem; 
+}
+
+#deals .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+
+}
+
+#deals .container img {
+    width: 100%;
+    height: 100%;
+}
+#deals div.container{
+
+    flex-basis: 95%;
+    align-items: center;
+    position: relative;
+   
+   
+    
+
+}
+#arr .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#arr img {
+    max-width: 100%;
+    flex-basis: 95%;
+}
+.order .container{
+   display: flex;
+   flex-direction: column; 
+}
+
+.btn3 {
+    background-color: #fff;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border: 2px #fff solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+   width: 30%;
+}
+.ach .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ach .first p{
+    flex-basis: 95%;
+}
+.ach .first{
+    margin-bottom: 20px;
+}
+.ach img{
+    max-width: 100%;
+    flex-basis: 95%;
+    
+
+}
+
+footer {
+    text-align: center;
+}
+#MenuControl+div{
+    margin-top: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+          .header .logo {
+              flex-basis: 20%;
+    
+          }
+    
+          #my-nav {
+              display: block;
+              flex-basis: 75%;
+          }
+    
+          #menu-bar {
+              display: none;
+          }
+                  #quality p {
+                      font-size: 0.8rem;
+                  }
+
+#deals .container img {
+
+    max-width: 100%;
+    
+
+    
+}
+
+#deals .sony {
+    margin-top: 0;
+    flex-basis: 32%;
+
+}
+
+#deals .hawi {
+
+    flex-basis: 32%;
+
+}
+
+#deals .len {
+
+    flex-basis: 32%;
+
+}
+
+#deals .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+
+
+#deals .off .hawi {
+
+
+    color: #fff;
+    margin-top: 10px;
+
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+    .parnet .container{
+       
+       display: flex;
+       flex-basis: 100%;
+       flex-direction: column;
+      margin-top: 100px;
+     
+       
+    }
+          .parnet .container p {
+              font-size: 0.6em;
+              font-weight: bold;
+          }
+    
+          .parnet .container h2 {
+              font-size: 50px;
+              margin-bottom: 10px;
+    
+          }
+#arr .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#arr h2{
+    width: 100%;
+}
+#arr img {
+    width: 350px;
+    flex-basis: 49%;
+}
+
+
+
+
+
+.ach .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ach .first p {
+    flex-basis: 95%;
+}
+
+.ach .first {
+    margin-bottom: 20px;
+    flex-basis: 45%;
+}
+.ach .Nums{
+    flex-basis:45% ;
+}
+
+.ach img {
+    max-width: 100%;
+    flex-basis: 95%;
+
+
+}
+.order .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#MenuControl+div {
+    margin-top: 20px;
+}
+
+}
+
+@media (min-width: 992px) {
+   .container{max-width: 920px;} 
+      
+    
+        .header .logo {
+            flex-basis: 20%;
+    
+        }
+    
+        #my-nav {
+        display: block;
+            flex-basis: 73%;
+        }
+    
+        #menu-bar {
+          display: none;
+        }
+    
+        .parnet .container {
+    
+            display: flex;
+            flex-basis: 100%;
+            flex-direction: column;
+            margin-top: 100px;
+    
+    
+        }
+                  .parnet .container p {
+                      font-size: 0.8em;
+                      font-weight: bold;
+                  }
+        
+                  .parnet .container h2 {
+                      font-size: 60px;
+                      margin-bottom: 10px;
+        
+                  }
+                                  #quality p {
+                                      font-size: 0.9rem;
+                                  }
+                                                              
+        #deals .sony {
+           margin-top: 0;
+            flex-basis: 32%;
+    
+        }
+    
+        #deals .hawi {
+           
+            flex-basis: 32%;
+    
+        }
+    
+        #deals .len {
+         
+            flex-basis: 32%;
+    
+        }
+#deals .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+
+
+#deals .off .hawi{
+   
+  
+    color: #fff;
+    margin-top: 10px;
+
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#arr .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#arr h2 {
+    width: 100%;
+}
+
+#arr img {
+    width: 220px;
+    flex-basis: 20%;
+}
+.order .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.btn3 {
+    background-color: #fff;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border: 2px #fff solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+     flex-basis: 15%;
+    
+        }
+
+                #mainMenu .container {
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+        
+                #mainMenu label {
+                    display: none;
+                }
+        
+                #MenuControl+div,
+                #MenuControl:checked+div {
+                    display: flex;
+                    width: auto;
+                }
+        
+                #mainMenu div>a {
+                    border-style: none;
+                    padding: 10px 20px;
+                }
+        
+        
+                #mainMenu ul {
+                    margin-top: 0;
+                    align-items: center;
+                    margin-left: 15px;
+                }
+
+                                #MenuControl+div {
+                                    margin-top: 0;
+                                }
+    }
+@media (min-width: 1200px) {
+.container {
+        max-width: 1000px;
+
+    }
+        .parnet .container {
+    
+            display: flex;
+            flex-basis: 100%;
+            flex-direction: column;
+            /* margin-top: 100px; */
+    
+    
+        }
+                           .parnet .container p {
+                               font-size: 0.9em;
+                               font-weight: bold;
+                           }
+            
+                           .parnet .container h2 {
+                               font-size: 55px;
+                               margin-bottom: 10px;
+            
+                           }
+                         .header .logo {
+                             flex-basis: 30%;
+            
+                         }
+            
+                         #my-nav {
+                             display: block;
+                             flex-basis: 62%;
+                         }
+            
+                         #menu-bar {
+                             display: none;
+                         }
+
+                             #my-nav .last {
+                               margin-right: 40px;
+                            }
+                                                        #quality p {
+                                                            font-size: 1rem;
+                                                        }
+
+
+
+
+                                                                        
+        #deals .sony {
+        
+            flex-basis: 32%;
+    
+        }
+    
+        #deals .hawi {
+           
+            flex-basis: 32%;
+    
+        }
+    
+        #deals .len {
+         
+            flex-basis: 32%;
+    
+        }
+#deals .container {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+
+
+}
+#arr .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#arr h2 {
+    width: 100%;
+}
+
+#arr img {
+    width: 240px;
+}
+                                                         
+
+}
+@media (min-width: 1400px) {
+.container {
+        max-width: 1220px;
+    }
+    .parnet .container{
+       
+       display: flex;
+       flex-basis: 100%;
+       flex-direction: column;
+      margin-top: 130px;
+     
+       
+    }
+           .header .logo {
+               flex-basis: 35%;
+    
+           }
+    
+           #my-nav {
+            display: block;
+               flex-basis: 55%;
+           }
+    
+           #menu-bar {
+               display: none;
+           }
+           #my-nav .last{
+            margin-right: 60px;
+           }
+        
+                   .parnet .container p {
+                       font-size: 1em;
+                       font-weight: bold;
+                   }
+        
+                   .parnet .container h2 {
+                       font-size: 60px;
+                       margin-bottom: 10px;
+                    
+                   }
+                                   #quality p {
+                                       font-size: 1rem;
+                                   }
+
+
+#arr .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#arr h2 {
+    width: 100%;
+}
+
+#arr img {
+    width: 290px;
+}
+}
